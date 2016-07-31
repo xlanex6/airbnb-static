@@ -2,9 +2,141 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Welcome to Middleman</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+  <div class="banner-content">
+      <h1>T'as faim</h1>
+      <p>Si toi aussi t'as envie de pécho la blonde qui te regarde</p>
+
+    <!-- form start -->
+      <form class="form-inline">
+          <div class="form-group">
+              <input type="date" class="form-control" id='datetimepicker1' placeholder="chechin">
+          </div>
+          <div class="form-group">
+              <input type="date" class="form-control" id='datetimepicker1' placeholder="checkout">
+          </div>
+          <div class="form-group">
+              <select class="form-control">
+                  <option value="1">1 pers.</option>
+                  <option value="2">2 pers.</option>
+                  <option value="3">3 pers.</option>
+              </select>
+          </div>
+          <button type="submit" class="btn btn-danger">Search</button>
+      </form>
+      <!-- form end -->
+  </div>
 </div>
+
+    <!-- Your features code -->
+    <div class="wrapper">
+        <div class="wrapper-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="features text-center">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="feature">
+                                <img src="images/globe.png" alt="Global Fuck">
+                                <p>Un super text bien pourri pour racoller un max.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="feature">
+                                <img src="images/beer.png" alt="International beer">
+                                <p>Un super text bien pourri pour racoller un max.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="feature">
+                                <img src="images/dollar.png" alt="Make money by fucking">
+                                <p>Un super text bien pourri pour racoller un max.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="feature">
+                                <img src="images/heart.png" alt="Fuck....with love">
+                                <p>Un super text bien pourri pour racoller un max.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="form text-center">
+                            <h2>Reste en contact avec ce vivier de meufs surper friendly</h2>
+                            <p>Et retrouve tous les 06 et leurs Facebook</p>
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="your@email.com">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-danger">Get her Facebook ID</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal start -->
+                <div class="row">
+                    <div class="ta-gueule text-center">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">il est 9h 15</button>
+
+                        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm" role="document">
+                                <div class="modal-content text-center">
+                                    <h2>TA GUEULE</h2>
+                                    <i class="fa fa-comment-o"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- modal end -->
+            </div>
+        </div>
+    </div>
+    <!-- feature end -->
+<div class="wrapper-black">
+    <div class="container">
+      <div class="cards">
+        <div class="col-xs-12 col-md-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg');">
+                <div class="card-category"></div>
+                <div class="card-description">
+                    <h2>Canada</h2>
+                    <p>Vivez la nature XXL</p>
+                </div>
+                <img class="card-user avatar" src="images/user3.jpg">
+                <a class="card-link" href="#"></a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/italia.jpg');">
+                <div class="card-category">Popular</div>
+                <div class="card-description">
+                    <h2>Italie</h2>
+                    <p>Magie à l'italienne</p>
+                </div>
+                <img class="card-user avatar" src="images/user2.jpg">
+                <a class="card-link" href="#"></a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://static.pexels.com/photos/4138/landscape-mountains-nature-fog.jpeg');">
+                <div class="card-category">Popular</div>
+                <div class="card-description">
+                    <h2>Indonesie</h2>
+                    <p>La beauté de la Terre</p>
+                </div>
+                <img class="card-user avatar" src="images/user1.jpg">
+                <a class="card-link" href="#"></a>
+            </div>
+        </div>
+        <!-- MAP -->
+      </div>
+    </div>
+    <div id="map" style="width: 100%; height: 400px;"></div>
+</div>
+    
