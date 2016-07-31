@@ -1,20 +1,20 @@
-<div class="wrapper-footer">
-    <div class="container">
-        <div class="footer">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                    <p class="text-center">Tout droit reservé - Le Wagon ® Copyright</p>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <div class="social">
-                        <ul class="list-inline text-right">
-                          <li><a href=""><i class="fa fa-facebook-square"></i></li></a>
-                          <li><a href=""><i class="fa fa-twitter-square"></i></li></a>
-                          <li><a href=""><i class="fa fa-envelope"></i></li></a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+.wrapper-footer {
+  background-color: rgb(32, 34, 20);
+  color: rgb(209, 209, 223);
+  padding-top: 30px;
+}
+
+.social a {
+  color: rgb(209, 209, 223);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  :hover {
+    color: transparent;
+  }
+}
+
+
+.wrapper-black {
+  background-color: #34495e;
+}

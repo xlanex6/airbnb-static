@@ -1,11 +1,11 @@
-//= require jquery
-//= require bootstrap-sprockets
-//= require_tree .
+// require "jquery"
+// require "bootstrap-sprockets"
+// require "tree"
 
 var myLatlng = new google.maps.LatLng(44.841691, -0.570190);
 
 var myOptions = {
-    zoom: 16,
+    zoom: 14,
     center: myLatlng,
     scrollwheel: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
