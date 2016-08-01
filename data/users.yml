@@ -1,0 +1,12 @@
+- name: jack
+  role: CEO
+  image: user1.jpg
+- name: Jo
+  role: COO
+  image: user2.jpg
+- name: john
+  role: CTO
+  image: user3.jpg
+- name: Ben
+  role: employee
+  image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Osama_bin_Laden_portrait.jpg/200px-Osama_bin_Laden_portrait.jpg

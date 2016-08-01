@@ -1,0 +1,30 @@
+<div class="trip-banner">
+  <div class="trip-banner-img" style="background-image: url('<%= image_path trip.picture %>')"></div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h3><%= trip.title %></h3>
+      <p><%= trip.trip_base_line %></p>
+      <p class="border-right-on"><%= trip.description %></p>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <h3>Description du séjour:</h3>
+      <ul class="list-inline">
+        <li>
+          <% trip.rating.times do |star| %>
+          <i class="fa fa-star"></i>
+          <% end %>
+        </li>
+        <li><%= trip.price %> €</li>
+        <% if trip.car %>
+        <li><i class="fa fa-car"></i></li>
+        <% end %>
+        <% if trip.fly %>
+        <li><i class="fa fa-plane"></i></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

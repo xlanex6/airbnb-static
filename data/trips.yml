@@ -1,0 +1,23 @@
+- title: Between islands and volcanos
+  country: indonesie
+  trip_advisor: Jack the ripper
+  picture_trip_advisor: user1.jpg
+  picture: bromo.jpeg
+  trip_base_line: Island & magma
+  rating: 5
+  car: true
+  fly: true
+  price: 4500
+  description: njdezjifdez
+
+- title: Freedom landscape
+  country: canada
+  trip_advisor: Billy the kick
+  picture_trip_advisor: user2.jpg
+  picture: canada.jpg
+  trip_base_line: Wildness XXL
+  rating: 4
+  car: false
+  fly: true
+  price: 5000
+  description: Le Loren Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Loren Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles.

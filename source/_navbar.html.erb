@@ -9,14 +9,14 @@
 
     <!-- Search form -->
     <form action="" class="navbar-wagon-search">
-      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
+      <input type="text" class="navbar-wagon-search-input" placeholder="Rechercher....">
       <button type="submit" class="navbar-wagon-search-btn">
         <i class="fa fa-search"></i>
       </button>
     </form>
 
     <!-- Text link -->
-    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+    <%= link_to "Wagon", "http://www.lewagon.org", class:"navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Text link -->
     <%= link_to "Team", "team.html" %>
@@ -25,14 +25,15 @@
     <a href="" class="navbar-wagon-item navbar-wagon-link">
       <div class="badge-container">
         <i class="fa fa-envelope-o"></i>
-        <div class="badge badge-blue">3</div>
+        <div class="badge badge-blue">18</div>
       </div>
     </a>
 
     <!-- Profile picture and dropdown -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <img src="https://avatars2.githubusercontent.com/u/13418668?v=3&s=460" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <%= link_to "" %>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
