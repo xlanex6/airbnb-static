@@ -28,7 +28,7 @@ activate :autoprefixer
 # end
 
 data.trips.each do |trip|
-  proxy "/trips/#{trip.country}.html", "/trips.html", locals: { trip: trip }
+  proxy "/trips/#{trip.country}.html", "/trips.html", locals: { trip: trip }, ignore: true
 end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
