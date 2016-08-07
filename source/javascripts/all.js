@@ -1,13 +1,15 @@
 // require "jquery"
 // require "bootstrap-sprockets"
 // require "tree"
+$(document).ready(function() {
+    var myLatlng = new google.maps.LatLng(44.841691, -0.570190);
 
-var myOptions = {
-    zoom: 14,
-    center: myLatlng,
-    scrollwheel: false,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    styles: [{
+    var myOptions = {
+        zoom: 14,
+        center: myLatlng,
+        scrollwheel: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: [{
             "featureType": "all",
             "elementType": "labels.text.fill",
             "stylers": [{
@@ -124,12 +126,12 @@ var myOptions = {
                 "lightness": 17
             }]
         }]
-        // TODO: replace [] by array from https://snazzymaps.com/
-};
-var map = new google.maps.Map(document.getElementById('map'), myOptions);
-var marker = new google.maps.Marker({
-    position: myLatlng,
-    map: map,
-    title: "You are here!"
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: "You are here!"
+    });
 });
-var myLatlng = new google.maps.LatLng(44.841691, -0.570190);

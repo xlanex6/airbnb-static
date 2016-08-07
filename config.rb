@@ -71,6 +71,10 @@ configure :build do
   # Enable cache buster
   # activate :asset_hash
 
+  activate :blog do |blog|
+  # set options on blog
+  end
+
   # Use relative URLs
   activate :relative_assets
   set :relative_links, true
